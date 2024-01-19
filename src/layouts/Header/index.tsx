@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className={style.header}>
-      <nav className={style.navigation + " container"}>
+      <nav className={style.navigation}>
         <Link href="/products" className={style.navLink}>
           Products
         </Link>

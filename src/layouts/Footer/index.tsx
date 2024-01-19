@@ -1,4 +1,4 @@
-import style from "@/styles/footer.module.scss";
+import style from "./footer.module.scss";
 export default function Footer() {
   return (
     <footer className="container">
