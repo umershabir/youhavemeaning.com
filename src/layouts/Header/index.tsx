@@ -9,13 +9,14 @@ export default function Header() {
         <Link href="/products" className={style.navLink}>
           Products
         </Link>
-        <Link href={"/"}>
-          <Image
+        <Link href={"/"} className={style.logoLink}>
+          {/* <Image
             src={logo}
             alt="you-have-meaning-productive-planner-and-journal-logo"
             width={50}
             height={50}
-          />
+          /> */}
+          You Have Meaning
         </Link>
         <Link href="/aboutus" className={style.navLink}>
           About Us
