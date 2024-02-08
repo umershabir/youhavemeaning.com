@@ -6,7 +6,7 @@ export default function Home() {
     <main>
       <HeroSection />
       <Contact />
-      <Products />
+      {/* <Products /> */}
     </main>
   );
 }

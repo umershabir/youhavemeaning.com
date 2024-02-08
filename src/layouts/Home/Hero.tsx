@@ -12,16 +12,11 @@ export default function HeroSection() {
             <Image
               src={logo}
               alt="best-journal-best-planner-you-have-meaning-logo"
-              width={50}
-              height={50}
+              width={30}
+              height={30}
             />
           </div>
-          <h1 className={style.philosophyMain}>
-            <strong className={style.kstrongText}>you</strong>
-            <span> have </span>
-
-            <strong className={style.strongText}>Meaning</strong>
-          </h1>
+          <h1 className={style.philosophyMain}>you have Meaning </h1>
           <p className={style.description + " " + TTThin.className}>
             We create impactful digital experiences that attract and engage.
             Check out our work below or learn more about what we do
