@@ -5,12 +5,15 @@
 }
 body {
   //   background-color: #f9f5f4;
-  background-color: #fff;
-  color: #444;
+  background-color: #e8e5e2;
+  // background-color: #e8e5e2;
+  color: #000;
+  font-family: TTRegular;
   //   padding-top: 70px;
 }
 .container {
-  width: 1400px;
+  max-width: 1400px;
+  // width: 1400px;
   margin: 0 auto;
   padding: 3rem 0;
 }

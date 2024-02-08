@@ -1,10 +1,12 @@
-import type { Metadata } from "next";
-import { Inter, Noto_Serif } from "next/font/google";
 import "@/styles/index.scss";
-import Header from "@/layouts/Header";
+import type { Metadata } from "next";
+// import { Inter, Noto_Serif } from "next/font/google";
+import localFont from "next/font/local";
+const TTRegular = localFont({ src: "../lib/TTNorms-Regular.otf" });
+// const TTMedium = localFont({ src: "../lib/TTNorms-Medium.otf" });
+// const TTThin = localFont({ src: "../lib/TTNorms-Thin.otf" });
+// import Header from "@/layouts/Header";
 import Footer from "@/layouts/Footer";
-const inter = Inter({ subsets: ["latin"] });
-const notoSerif = Noto_Serif({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "YHM | Best Planners & journals",
@@ -19,8 +21,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className + " " + notoSerif.className}>
-        <Header />
+      <body className={`${TTRegular.className} $`}>
+        {/* <Header /> */}
         {children}
         <Footer />
       </body>
