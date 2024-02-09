@@ -1,6 +1,7 @@
 import "@/styles/index.scss";
 import type { Metadata } from "next";
 // import { Inter, Noto_Serif } from "next/font/google";
+import Header from "@/layouts/Header";
 import localFont from "next/font/local";
 const TTRegular = localFont({ src: "../lib/TTNorms-Regular.otf" });
 // const TTMedium = localFont({ src: "../lib/TTNorms-Medium.otf" });
@@ -22,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${TTRegular.className} $`}>
-        {/* <Header /> */}
+        <Header />
         {children}
         <Footer />
       </body>

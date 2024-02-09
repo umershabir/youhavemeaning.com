@@ -20,9 +20,9 @@ export default function Contact() {
           <div className={style.contactType}>
             <p>Social</p>
             <div className={style.socialLinks}>
-              <a href="">Fb</a>
               <a href="">Tw</a>
               <a href="">Li</a>
+              <a href="">Fb</a>
               <a href="">Ins</a>
             </div>
           </div>

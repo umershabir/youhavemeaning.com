@@ -1,16 +1,19 @@
 .header {
   padding: 0.5rem 0;
-  background-color: #f9f5f4;
-  position: sticky;
+  // background-color: #f9f5f4;
+  // position: ;
   top: 0;
   left: 0;
   box-shadow: 0px 0px 0px rgba($color: #000000, $alpha: 0.3);
   height: 70px;
   width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
   transition: all ease-out 0.3s;
-  &:hover {
-    background-color: #fff;
-  }
+  // &:hover {
+  //   background-color: #fff;
+  // }
 }
 .navigation {
   display: flex;
@@ -26,7 +29,7 @@
   text-decoration: none;
   transition: all ease 0.2s;
   &:hover {
-    color: #ffbc2d;
+    color: #fe5733;
     text-decoration: underline;
   }
 }
