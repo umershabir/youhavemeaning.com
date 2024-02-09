@@ -15,7 +15,7 @@ export default function Contact() {
           </div>
           <div className={style.contactType}>
             <p>Whatsapp</p>
-            <a href="">+923093961696</a>
+            <a href="">+923024716222</a>
           </div>
           <div className={style.contactType}>
             <p>Social</p>

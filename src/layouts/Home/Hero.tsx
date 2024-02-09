@@ -17,7 +17,7 @@ export default function HeroSection() {
               height={30}
             />
           </div> */}
-          <h1 className={style.philosophyMain}>you have Meaning </h1>
+          <h1 className={style.philosophyMain}>you have Meaning</h1>
           <p className={style.description + " " + TTThin.className}>
             <strong>
               We create impactful products that helps to live meaningful life.

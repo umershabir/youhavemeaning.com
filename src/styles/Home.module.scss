@@ -65,6 +65,7 @@
 }
 /// contact us details
 .contactContainer {
+  margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -72,6 +73,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 4rem;
+  border-top: 1px solid #dcdbd9;
+  padding-top: 4rem;
+  // padding-right: 5rem;
+  width: 80%;
 }
 .contactType {
   display: flex;
@@ -96,6 +101,9 @@
 .socialLinks {
   display: flex;
   column-gap: 1rem;
+}
+.aboutus {
+  padding-top: 4rem;
 }
 .heroCTA {
   color: #3e311e;
