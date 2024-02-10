@@ -2,7 +2,7 @@ import style from "@/styles/Home.module.scss";
 
 export default function Contact() {
   return (
-    <section className="container">
+    <section className="container sm-pt-0">
       <div className={style.contactContainer}>
         <div className={style.contactus}>
           <div className={style.contactType}>

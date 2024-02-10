@@ -1,3 +1,4 @@
+@import "./mixin";
 .heroSection {
   // background-color: #f9f5f4;
 }
@@ -18,7 +19,7 @@
   text-transform: capitalize;
   font-family: inherit;
   // text-align: center;
-  justify-self: end;
+  justify-self: center;
   // align-self: ;
   display: flex;
   align-items: center;
@@ -62,12 +63,22 @@
   // text-align: end;
   font-weight: 400;
   width: 89%;
+  @include for-mobile {
+    width: 100%;
+    font-size: 1.3rem;
+    line-height: 40px;
+    // text-align: center;
+  }
 }
 /// contact us details
 .contactContainer {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  @include for-mobile {
+    grid-template-columns: 1fr;
+    margin-top: unset;
+  }
 }
 .contactus {
   display: grid;
@@ -77,6 +88,12 @@
   padding-top: 4rem;
   // padding-right: 5rem;
   width: 80%;
+  @include for-mobile {
+    grid-area: 2/1/3/2;
+    width: 100%;
+    column-gap: 2rem;
+    row-gap: 3rem;
+  }
 }
 .contactType {
   display: flex;
@@ -104,6 +121,10 @@
 }
 .aboutus {
   padding-top: 4rem;
+  @include for-mobile {
+    padding-bottom: 4rem;
+    padding-top: unset !important;
+  }
 }
 .heroCTA {
   color: #3e311e;
