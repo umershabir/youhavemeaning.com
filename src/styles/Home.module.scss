@@ -26,7 +26,10 @@
   height: 70vh;
   word-spacing: 5px;
   word-wrap: no-wrap;
-
+  @include for-mobile {
+    margin-top: unset;
+    height: 50vh;
+  }
   // font-family: TTRegular;
 }
 .strongText {
