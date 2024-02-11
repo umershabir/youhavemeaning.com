@@ -26,6 +26,7 @@
   height: 70vh;
   word-spacing: 5px;
   word-wrap: no-wrap;
+  text-wrap: nowrap;
   @include for-mobile {
     margin-top: unset;
     height: 50vh;
