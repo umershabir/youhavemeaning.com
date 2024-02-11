@@ -22,8 +22,13 @@ export default function Contact() {
             <div className={style.socialLinks}>
               <a href="">Tw</a>
               <a href="">Li</a>
-              <a href="">Fb</a>
-              <a href="">Ins</a>
+              {/* <a href="">Fb</a> */}
+              <a
+                href="https://www.instagram.com/youhavemeaning_/"
+                target="_blank"
+              >
+                Ins
+              </a>
             </div>
           </div>
         </div>
