@@ -4,7 +4,6 @@ import Header from "@/layouts/Header";
 import localFont from "next/font/local";
 const TTRegular = localFont({ src: "../lib/TTNorms-Regular.otf" });
 import Footer from "@/layouts/Footer";
-
 export const metadata: Metadata = {
   title: "YHM | Best Planners & journals",
   description:
