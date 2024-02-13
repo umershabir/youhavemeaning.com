@@ -1,6 +1,6 @@
 export const opacity = {
   initial: {
-    opacity: 1,
+    opacity: 0,
   },
   enter: {
     opacity: 0.75,

@@ -62,7 +62,12 @@ export default function Preloader() {
     >
       {dimension.width > 0 && (
         <>
-          <motion.p variants={opacity} className={TTRegular.className}>
+          <motion.p
+            variants={opacity}
+            initial="initial"
+            animate="enter"
+            className={TTRegular.className}
+          >
             You Have Meaning
           </motion.p>
           <svg>
