@@ -8,6 +8,8 @@ const TTRegular = localFont({ src: "../lib/TTNorms-Regular.otf" });
 import Footer from "@/layouts/Footer";
 import Preloader from "@/components/Preloader";
 import { AnimatePresence } from "framer-motion";
+import { GoogleAnalytics } from "@next/third-parties/google";
+
 // export const metadata: Metadata = {
 //   title: "YHM | Best Planners & journals",
 //   description:
@@ -39,10 +41,11 @@ export default function RootLayout({
     <html lang="en">
       <AnimatePresence>{loading && <Preloader />}</AnimatePresence>
 
-      <body className={`${TTRegular.className} $`}>
+      <body className={`${TTRegular.className}`}>
         <Header />
         {children}
         <Footer />
+        <GoogleAnalytics gaId="G-XMBVK5SBJV" />
       </body>
     </html>
   );

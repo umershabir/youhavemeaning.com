@@ -19,9 +19,7 @@ export default function HeroSection() {
           </div> */}
           <h1 className={style.philosophyMain}>you have Meaning</h1>
           <p className={style.description + " " + TTThin.className}>
-            <strong>
-              We create impactful products that helps to live meaningful life.
-            </strong>
+            We create impactful products that helps to live meaningful life.
             Below learn more about us, or Check out our{" "}
             <Link className={style.heroCTA} href={"/products"}>
               {" "}
